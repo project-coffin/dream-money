@@ -6,12 +6,12 @@ function ChallengeAchievement(){
     /*
     <fullpage>
         <header/>
-        <contents>
+        <content>
             <subtitle/>
             (...)
             <MyChallengeItemList/>
             (...)
-        </contents>
+        </content>
     </fullpage>
     */
 }

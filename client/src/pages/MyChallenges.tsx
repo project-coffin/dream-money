@@ -10,13 +10,12 @@ function MyChallenges(){
     /*
     <fullpage>
         <header/>
-        <contents>
+        <content>
             <subtitle/>
             (...)
-            <AchievementRatio/>     // my statistics
-            <AchievementRatio/>     // overall
+            <AchievementRatioContainer />
             (...)
-        </contents>
+        </content>
     </fullpage>
     */
 }
