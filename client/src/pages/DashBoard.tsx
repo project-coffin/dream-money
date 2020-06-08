@@ -1,7 +1,7 @@
 import React from 'react';
 
 //TOOD: *
-function ChallengeAchievement(){
+function DashBoard(){
     return(<></>);
     /*
     <fullpage>
@@ -9,11 +9,11 @@ function ChallengeAchievement(){
         <content>
             <subtitle/>
             (...)
-            <MyChallengeItemList/>
+            <AchievementRateContainer />
             (...)
         </content>
     </fullpage>
     */
 }
 
-export default ChallengeAchievement;
+export default DashBoard;
