@@ -6,7 +6,11 @@ import React from 'react';
 // https://stackoverflow.com/questions/32645053/is-it-possible-to-make-svg-circle-fill-color-from-bottom-to-top-based-on-percent
 
 //TODO: *
-function AchievementRateForm(){
+type AchievementRateFormProps = {
+    difference: number,
+    rate: number
+}
+function AchievementRateForm({difference, rate} : AchievementRateFormProps){
     return <></>;    
 }
 export default AchievementRateForm;
