@@ -16,6 +16,15 @@
     z-index: -2;
 }
 
+@keyframes slideUp {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+}
+
 .fill {
     background-color: #7F66FF;
     height: 0%;
@@ -23,6 +32,11 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    -moz-transition: height 1s;
+    -webkit-transition: height 1s;
+    -o-transition: height 1s;
+    transition: height 1s;
+    animation: 1.3s ease-out 0s 1 slideUp;
     z-index: -1;
 }
 
