@@ -1,8 +1,14 @@
 import React from 'react';
 import AchievementRateContainer from '../containers/AchievementRateContainer';
+import RegularSavingsNotiContainer from '../containers/RegularSavingsNotiContainer';
 //TOOD: *
 function DashBoard(){
-    return(<AchievementRateContainer/>);
+    return(
+        <div>
+            <AchievementRateContainer/>
+            <RegularSavingsNotiContainer/>
+        </div>
+    );
     /*
     <fullpage>
         <header/>
@@ -10,6 +16,7 @@ function DashBoard(){
             <subtitle/>
             (...)
             <AchievementRateContainer />
+            <RegularSavingsNotiContainer />
             (...)
         </content>
     </fullpage>
