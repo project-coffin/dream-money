@@ -3,7 +3,7 @@ import AchievementRateForm from '../components/AchievementRateForm/AchievementRa
 
 //TODO: convert "features" to (useState | Redux | GraphQL)
 //TODO: 
-function AchievementRateContainer(){
+const AchievementRateContainer = () =>{
     /* TESTCASE */
     //TODO: 데이터 넘어오는 양식 정해지면 수정할 것.
     // 데이터: 고정지출, 변동지출, 월 수익, 현재자산, 목표기간, 목표금액
