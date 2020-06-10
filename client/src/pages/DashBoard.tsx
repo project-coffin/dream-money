@@ -1,26 +1,28 @@
-import React from 'react';
-import AchievementRateContainer from '../containers/AchievementRateContainer';
-import RegularSavingsNotiContainer from '../containers/RegularSavingsNotiContainer';
+import React from 'react'
+import AchievementRateContainer from '../containers/AchievementRateContainer'
+import RegularSavingsNotiContainer from '../containers/RegularSavingsNotiContainer'
+import Header from '../components/common/Header'
 //TOOD: *
-function DashBoard(){
-    return(
-        <div>
-            <AchievementRateContainer/>
-            <RegularSavingsNotiContainer/>
-        </div>
-    );
-    /*
-    <fullpage>
-        <header/>
-        <content>
-            <subtitle/>
-            (...)
-            <AchievementRateContainer />
-            <RegularSavingsNotiContainer />
-            (...)
-        </content>
-    </fullpage>
-    */
+const DashBoard = () => {
+  return (
+    <div>
+      <Header/>
+      <AchievementRateContainer/>
+      <RegularSavingsNotiContainer/>
+    </div>
+  )
+  /*
+  <fullpage>
+      <header/>
+      <content>
+          <subtitle/>
+          (...)
+          <AchievementRateContainer />
+          <RegularSavingsNotiContainer />
+          (...)
+      </content>
+  </fullpage>
+  */
 }
 
-export default DashBoard;
+export default DashBoard

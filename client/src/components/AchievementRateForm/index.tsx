@@ -1,1 +1,1 @@
-export { default } from './AchievementRateForm';
+export { default } from './AchievementRateForm'
