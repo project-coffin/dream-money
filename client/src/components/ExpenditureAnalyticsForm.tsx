@@ -1,10 +1,9 @@
 import React from 'react'
 import { Pie } from 'react-chartjs-2'
 
-
 const ExpenditureAnalyticsForm = () => {
   const data = {
-    labels: ['Red', 'Green', 'Yellow'],
+    labels: ['치킨', '교통비', '가락시장'],
     datasets: [
       {
         data: [300, 50, 100],
@@ -15,7 +14,7 @@ const ExpenditureAnalyticsForm = () => {
   }
 
   return (
-    <div style={{height: '300px', width: '300px', position: 'relative'}}>
+    <div style={{height: '500px', width: '500px', position: 'relative'}}>
       <Pie
         data={data}
         height={150}
