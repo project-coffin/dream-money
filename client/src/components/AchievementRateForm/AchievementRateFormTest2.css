@@ -36,7 +36,7 @@
   -webkit-transition: height 1s;
   -o-transition: height 1s;
   transition: height 1s;
-  animation: 1.3s ease-out 0s 1 slideUp;
+  animation: 0.7s ease-out 0s 1 slideUp;
   z-index: -1;
 }
 

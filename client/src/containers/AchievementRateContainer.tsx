@@ -25,17 +25,11 @@ const AchievementRateContainer = () => {
     deposit: 3_000_000,
     withdraw: 2_000_000,
   })
-  const temporaryFormula1 = (feature2: feature2Type): number => {
-    return feature2.deposit - feature2.withdraw
-  }
   const temporaryFormula2 = (feature1: feature1Type): number => {
     return Math.round((feature1.money / feature1.purpose) * 100)
   }
   // TODO: difference 삭제
-  const [difference, achievementRate] = useMemo(() => [temporaryFormula1(feature2), temporaryFormula2(feature1)], [
-    feature1,
-    feature2,
-  ])
+  const achievementRate = useMemo(() => temporaryFormula2(feature1), [feature1])
 
   return (
     <>

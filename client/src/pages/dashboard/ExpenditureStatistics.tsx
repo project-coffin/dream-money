@@ -1,13 +1,7 @@
 import React from 'react'
-import AchievementRateContainer from '../../containers/AchievementRateContainer'
-import RegularSavingsNotiContainer from '../../containers/RegularSavingsNotiContainer'
-
+import ExpenditureStatisticsContainer from '../../containers/ExpenditureStatisticsContainer'
+//TODO: chart.js
 const ExpenditureStatistics = () => {
-  return (
-    <>
-      <AchievementRateContainer />
-      <RegularSavingsNotiContainer />
-    </>
-  )
+  return <ExpenditureStatisticsContainer />
 }
 export default ExpenditureStatistics

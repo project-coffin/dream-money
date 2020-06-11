@@ -8,7 +8,11 @@ const categories = [
     text: '목표금액',
   },
   {
-    name: 'expenditure',
+    name: 'analytics',
+    text: '지출분석',
+  },
+  {
+    name: 'statistics',
     text: '지출통계',
   },
 ]
