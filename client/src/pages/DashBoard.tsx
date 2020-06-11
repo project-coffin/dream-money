@@ -1,28 +1,11 @@
 import React from 'react'
-import AchievementRateContainer from '../containers/AchievementRateContainer'
-import RegularSavingsNotiContainer from '../containers/RegularSavingsNotiContainer'
-import Header from '../components/common/Header'
+import { Route } from 'react-router-dom'
+import ExpenditureStatistics from './dashboard/ExpenditureStatistics'
 //TOOD: *
-const DashBoard = () => {
+const DashBoard = ({ match }: any) => {
+  console.log(match.params.category)
   return (
-    <div>
-      <Header/>
-      <AchievementRateContainer/>
-      <RegularSavingsNotiContainer/>
-    </div>
+    <Route path="/expenditure" component={ExpenditureStatistics}/>
   )
-  /*
-  <fullpage>
-      <header/>
-      <content>
-          <subtitle/>
-          (...)
-          <AchievementRateContainer />
-          <RegularSavingsNotiContainer />
-          (...)
-      </content>
-  </fullpage>
-  */
 }
-
 export default DashBoard

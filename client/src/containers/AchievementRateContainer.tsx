@@ -28,7 +28,7 @@ const AchievementRateContainer = () => {
   const temporaryFormula1 = (feature2: feature2Type): number => {
     return feature2.deposit - feature2.withdraw
   }
-  const temporaryFormula2 = (feature1: feature1Type): number =>{
+  const temporaryFormula2 = (feature1: feature1Type): number => {
     return Math.round((feature1.money / feature1.purpose) * 100)
   }
   // TODO: difference 삭제
@@ -37,7 +37,7 @@ const AchievementRateContainer = () => {
     feature2,
   ])
 
-  return(
+  return (
     <>
       <button onClick={()=>{setFeature1({...feature1, money: feature1.money + 1_000_000})} } > 가진돈+ </button>
       <button onClick={()=>{setFeature1({...feature1, money: feature1.money - 1_000_000})} } > 가진돈- </button>

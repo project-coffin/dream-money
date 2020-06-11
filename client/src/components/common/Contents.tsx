@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const HeaderBar = styled.div`
+const ContentBar = styled.div`
   display: flex;
   padding: 1rem;
   height: 2rem;
@@ -14,8 +14,8 @@ const HeaderBar = styled.div`
   }
 `
 
-const Header = () => {
-  return <HeaderBar></HeaderBar>
+const Contents = () => {
+  return <ContentBar></ContentBar>
 }
 
-export default Header
+export default Contents
