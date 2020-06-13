@@ -5,7 +5,6 @@ import ExpenditureStatistics from './dashboard/ExpenditureStatistics'
 import ExpenditureAnalytics from './dashboard/ExpenditureAnalytics'
 //TOOD: *
 const DashBoard = ({ match }: any) => {
-  console.log(match.params.category)
   return (
     <>
       <Route path="/achievement" component={AchievementRate}/>
